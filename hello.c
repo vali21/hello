@@ -1,5 +1,7 @@
 #include <stdio.h>
 int main ()
-{ printf(" Hello, World !\n");
+{ char  nume[15];
+ scanf("%s",nume);
+ printf("%s Hello, World !\n",nume);
 return 0;
 }
